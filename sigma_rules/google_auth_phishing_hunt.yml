@@ -1,0 +1,25 @@
+title: UAT-11985 Source-Reported Phishing Domain Hunt
+id: 3c2c21d8-4d10-4a8f-8d2e-7c91a3b6f201
+status: experimental
+description: >
+    Hunt proxy events for the two domains reported in Cisco Talos's
+    UAT-11985 analysis. These are source-reported indicators and have
+    not been independently validated by this project.
+references:
+    - https://blog.talosintelligence.com/uat-11985/
+author: ThreatLens
+date: 2026-10-15
+tags:
+    - attack.initial-access
+    - attack.t1566
+logsource:
+    category: proxy
+detection:
+    selection_domain:
+        DestinationHostname|contains:
+            - 'google.morelessty.com'
+            - 'jmlh.morelessty.com'
+    condition: selection_domain
+falsepositives:
+    - Controlled security testing or approved traffic to these domains
+level: high

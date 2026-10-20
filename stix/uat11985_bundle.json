@@ -1,0 +1,315 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ec7a27c-7a45-456d-a1a0-30aa27f51519",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.032942Z",
+            "modified": "2026-10-15T09:33:08.032942Z",
+            "name": "ThreatLens",
+            "description": "ThreatLens capstone threat-intelligence project",
+            "identity_class": "organization"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e58c71c9-0900-41ed-8ca8-1c330885c1ac",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.033216Z",
+            "modified": "2026-10-15T09:33:08.033216Z",
+            "name": "UAT-11985 source-reported url indicator",
+            "description": "Original reported value: https[:]//google.morelessty[.]com. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'https://google.morelessty.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9a7c487b-3eed-4444-9cb4-40348b2eb5ae",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.036461Z",
+            "modified": "2026-10-15T09:33:08.036461Z",
+            "name": "UAT-11985 source-reported url indicator",
+            "description": "Original reported value: https[:]//jmlh.morelessty[.]com/. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'https://jmlh.morelessty.com/']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--decffe52-30e8-419e-a08b-c9bda626ee61",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.036866Z",
+            "modified": "2026-10-15T09:33:08.036866Z",
+            "name": "UAT-11985 source-reported url indicator",
+            "description": "Original reported value: https[:]//google.centerhoti[.]com/. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'https://google.centerhoti.com/']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9bab80c2-1958-4961-9df9-aea87dbc9c2c",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.0372Z",
+            "modified": "2026-10-15T09:33:08.0372Z",
+            "name": "UAT-11985 source-reported url indicator",
+            "description": "Original reported value: https[:]//google.natrlyi[.]com/. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'https://google.natrlyi.com/']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--74ca917c-7c4c-4c74-b3b5-8002d5887be6",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.037499Z",
+            "modified": "2026-10-15T09:33:08.037499Z",
+            "name": "UAT-11985 source-reported url indicator",
+            "description": "Original reported value: https[:]//accounts.natrlyi[.]com/. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[url:value = 'https://accounts.natrlyi.com/']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d8c32478-44a0-477d-8e99-949745aa20d6",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.0378Z",
+            "modified": "2026-10-15T09:33:08.0378Z",
+            "name": "UAT-11985 source-reported email indicator",
+            "description": "Original reported value: hoangthikieuanh254@gmail[.]com. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[email-addr:value = 'hoangthikieuanh254@gmail.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e9637570-3d9f-4119-9114-80346b9a20a1",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.038323Z",
+            "modified": "2026-10-15T09:33:08.038323Z",
+            "name": "UAT-11985 source-reported email indicator",
+            "description": "Original reported value: chenzhengyu1989@gmail[.]com. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[email-addr:value = 'chenzhengyu1989@gmail.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--988f9d06-e3ac-44c1-84bb-507b83406dfc",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.038682Z",
+            "modified": "2026-10-15T09:33:08.038682Z",
+            "name": "UAT-11985 source-reported email indicator",
+            "description": "Original reported value: tonn9127@gmail[.]com. Validation status: source_reported_unverified. Collected from the Cisco Talos public IOC repository. Not independently validated by ThreatLens.",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[email-addr:value = 'tonn9127@gmail.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2026-10-15T09:33:08.033117Z",
+            "labels": [
+                "source-reported",
+                "unverified",
+                "UAT-11985"
+            ],
+            "confidence": 20,
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                },
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                }
+            ]
+        },
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--73027d6e-21c6-455d-a851-56d2c9fbb2d6",
+            "created_by_ref": "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+            "created": "2026-10-15T09:33:08.038992Z",
+            "modified": "2026-10-15T09:33:08.038992Z",
+            "name": "ThreatLens UAT-11985 Campaign Indicator Report",
+            "description": "A source-based bundle of eight indicators reported by Cisco Talos for UAT-11985: five URLs and three email addresses. All indicators remain source-reported and unverified. This report does not assert that the indicators are independently confirmed malicious or that Indian banks were targeted.",
+            "report_types": [
+                "threat-report"
+            ],
+            "published": "2026-10-15T09:33:08.033117Z",
+            "object_refs": [
+                "identity--2f1a60a4-ddd7-4e1f-a64d-ede58cb2201b",
+                "indicator--e58c71c9-0900-41ed-8ca8-1c330885c1ac",
+                "indicator--9a7c487b-3eed-4444-9cb4-40348b2eb5ae",
+                "indicator--decffe52-30e8-419e-a08b-c9bda626ee61",
+                "indicator--9bab80c2-1958-4961-9df9-aea87dbc9c2c",
+                "indicator--74ca917c-7c4c-4c74-b3b5-8002d5887be6",
+                "indicator--d8c32478-44a0-477d-8e99-949745aa20d6",
+                "indicator--e9637570-3d9f-4119-9114-80346b9a20a1",
+                "indicator--988f9d06-e3ac-44c1-84bb-507b83406dfc"
+            ],
+            "external_references": [
+                {
+                    "source_name": "Cisco Talos campaign analysis",
+                    "url": "https://blog.talosintelligence.com/uat-11985/"
+                },
+                {
+                    "source_name": "Cisco Talos public IOC repository",
+                    "url": "https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt"
+                }
+            ]
+        }
+    ]
+}

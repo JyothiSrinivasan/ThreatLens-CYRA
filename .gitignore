@@ -1,0 +1,21 @@
+﻿.env
+MISP AUTH KEYS.txt
+.venv/
+__pycache__/
+*.py[cod]
+data/
+wazuh-docker/
+
+# Local secrets and environment files
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local databases, indexes, and generated artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log

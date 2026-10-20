@@ -1,0 +1,45 @@
+
+{
+  "name": "ThreatLens - UAT-11985",
+  "versions": {
+    "attack": "19",
+    "navigator": "5.2.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Analytical mapping of reported UAT-11985 activity. Scores represent mapping confidence for this project, not observed prevalence or confirmed victim activity.",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showID": true,
+    "showName": true
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1557",
+      "score": 3,
+      "enabled": true,
+      "comment": "Reported adversary-in-the-middle activity. Mapping referenced in the supplied campaign analysis; validate the exact technique scope."
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 2,
+      "enabled": true,
+      "comment": "Phishing is reported. Parent technique selected because the specific phishing sub-technique is not established."
+    },
+    {
+      "techniqueID": "T1056.003",
+      "score": 1,
+      "enabled": true,
+      "comment": "Candidate mapping for fake sign-in credential capture. Validate whether the reported behaviour meets the Web Portal Capture definition."
+    }
+  ]
+}

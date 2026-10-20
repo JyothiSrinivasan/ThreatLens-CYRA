@@ -1,0 +1,27 @@
+title: UAT-11985 Source-Reported Email Indicator Hunt
+id: 8d5f2f49-3a7e-4c61-a7b4-2d9e6f8c1053
+status: experimental
+description: >
+    Hunt email gateway logs for sender addresses reported in the
+    Cisco Talos UAT-11985 IOC repository. These indicators are
+    source-reported and have not been independently validated.
+references:
+    - https://blog.talosintelligence.com/uat-11985/
+    - https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2026/10/uat-11985.txt
+author: ThreatLens
+date: 2026-10-15
+tags:
+    - attack.initial-access
+    - attack.t1566
+logsource:
+    category: email
+detection:
+    selection_sender:
+        sender:
+            - 'hoangthikieuanh254@gmail.com'
+            - 'chenzhengyu1989@gmail.com'
+            - 'tonn9127@gmail.com'
+    condition: selection_sender
+falsepositives:
+    - Legitimate or spoofed messages involving a listed address
+level: medium

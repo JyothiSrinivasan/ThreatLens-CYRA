@@ -1,0 +1,91 @@
+{
+	"name": "ThreatLens - UAT-11985",
+	"versions": {
+		"attack": "20",
+		"navigator": "5.3.2",
+		"layer": "4.5"
+	},
+	"domain": "enterprise-attack",
+	"description": "Analytical mapping of reported UAT-11985 activity. Scores represent mapping confidence for this project, not observed prevalence or confirmed victim activity.",
+	"filters": {
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": true,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false,
+		"expandedSubtechniques": "none"
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1557",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "Reported adversary-in-the-middle activity. Mapping referenced in the supplied campaign analysis; validate the exact technique scope.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557",
+			"tactic": "collection",
+			"score": 3,
+			"color": "",
+			"comment": "Reported adversary-in-the-middle activity. Mapping referenced in the supplied campaign analysis; validate the exact technique scope.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "Candidate mapping for fake sign-in credential capture. Validate whether the reported behaviour meets the Web Portal Capture definition.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "Candidate mapping for fake sign-in credential capture. Validate whether the reported behaviour meets the Web Portal Capture definition.",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": false,
+	"selectSubtechniquesWithParent": false,
+	"selectVisibleTechniques": false
+}
