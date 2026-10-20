@@ -19,3 +19,6 @@ credentials/
 *.sqlite
 *.sqlite3
 *.log
+
+# Local presentation - keep off GitHub
+reports/Jyothi_Srinivasan_ThreatLens_Capstone_Presentation.pptx
